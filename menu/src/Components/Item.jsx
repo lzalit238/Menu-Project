@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Item = (data) => {
-    const {id, title, category, price, img, desc} = data
+    const { id, title, category, price, img, desc } = data
+    
     return (
         <>
             <div key={id}>
