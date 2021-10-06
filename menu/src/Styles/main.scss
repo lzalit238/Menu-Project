@@ -1,0 +1,25 @@
+$color-primary-1: rgb(236, 184, 43);
+$color-primary-2: rgb(187, 142, 20);
+
+body {
+  margin: auto;
+  display: flex;
+}
+
+.container {
+  max-width: 100%;
+  min-width: 10rem;
+}
+
+.heading {
+  text-align: center;
+  text-decoration: underline $color-primary-1 2px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+sup {
+  color: $color-primary-1;
+}

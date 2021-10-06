@@ -6,8 +6,8 @@ const App = () => {
     const [item, setItem]=useState(data)
     return (
         <div>
-            <h1>Our Menu</h1>
-            <Item data={data}/>
+            <h1 className='heading'>Our Menu</h1>
+            <Item item={item}/>
         </div>
     )
 }

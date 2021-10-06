@@ -1,18 +1,20 @@
 import React from 'react'
 
-const Item = (data) => {
-    const { id, title, category, price, img, desc } = data
-    
+const Item = ({item}) => {
+    return item.map((meal) => {
+        const { id, title, category, price, img, desc } = meal
     return (
         <>
-            <div key={id}>
+            <div key={id} className='container'>
                 <img src={img} alt={title} />
                 <h2>{title}</h2>
                 <sup>${price}</sup>
+                <hr/>
                 <p>{desc}</p>
             </div>
         </>
     )
+    })
 }
 
 export default Item

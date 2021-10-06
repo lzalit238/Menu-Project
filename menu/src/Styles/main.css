@@ -1,0 +1,23 @@
+body {
+  margin: auto;
+  display: flex;
+}
+
+.container {
+  max-width: 100%;
+  min-width: 10rem;
+}
+
+.heading {
+  text-align: center;
+  -webkit-text-decoration: underline #ecb82b 2px;
+          text-decoration: underline #ecb82b 2px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+sup {
+  color: #ecb82b;
+}/*# sourceMappingURL=main.css.map */
