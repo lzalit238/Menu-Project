@@ -10,8 +10,7 @@ body {
 
 .heading {
   text-align: center;
-  -webkit-text-decoration: underline #ecb82b 2px;
-          text-decoration: underline #ecb82b 2px;
+  text-decoration: underline #ecb82b 2px;
 }
 
 h2 {
@@ -20,4 +19,6 @@ h2 {
 
 sup {
   color: #ecb82b;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

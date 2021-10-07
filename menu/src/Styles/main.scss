@@ -4,6 +4,10 @@ $color-primary-2: rgb(187, 142, 20);
 body {
   margin: auto;
   display: flex;
+  img {
+    border: $color-primary-1 2px;
+    border-radius: 2rem;
+  }
 }
 
 .container {
