@@ -2,6 +2,10 @@ body {
   margin: auto;
   display: flex;
 }
+body img {
+  border: #ecb82b 2px;
+  border-radius: 2rem;
+}
 
 .container {
   max-width: 100%;
