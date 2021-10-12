@@ -1,14 +1,28 @@
+body h2 {
+  font-weight: bold;
+}
+body sup {
+  color: #ecb82b;
+}
 body img {
-  border: #ecb82b 2px;
-  border-radius: 2rem;
-  max-width: 100%;
+  border: #ecb82b 3px solid;
+  border-radius: 0.75rem;
+  width: 30%;
   height: auto;
+  float: left;
+  vertical-align: middle;
 }
 
 .container {
   max-width: 100%;
   min-width: 5rem;
-  border: 2px solid black;
+  margin: 0 auto;
+  padding: 1.5rem;
+  overflow-wrap: break-word;
+}
+
+.text-container {
+  padding-left: 1rem;
 }
 
 .heading {
@@ -17,10 +31,6 @@ body img {
           text-decoration: underline #ecb82b 2px;
 }
 
-h2 {
-  font-weight: bold;
-}
-
-sup {
-  color: #ecb82b;
+.img-container {
+  flex: 1.5;
 }/*# sourceMappingURL=main.css.map */

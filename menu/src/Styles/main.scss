@@ -1,19 +1,44 @@
 $color-primary-1: rgb(236, 184, 43);
 $color-primary-2: rgb(187, 142, 20);
 
+// @mixin push-autoCenter {
+//   margin {
+//     left: auto;
+//     right: auto;
+//   }
+// }
+
 body {
+  // @include _mixin.push-autoCenter;
+  h2 {
+    font-weight: bold;
+  }
+
+  sup {
+    color: $color-primary-1;
+  }
+
   img {
-    border: $color-primary-1 2px;
-    border-radius: 2rem;
-    max-width: 100%;
+    border: $color-primary-1 3px solid;
+    border-radius: 0.75rem;
+    width: 30%;
     height: auto;
+    float: left;
+    vertical-align: middle;
   }
 }
 
 .container {
   max-width: 100%;
   min-width: 5rem;
-  border: 2px solid black;
+  margin: 0 auto;
+  padding: 1.5rem;
+  overflow-wrap: break-word;
+}
+
+.text-container {
+  padding-left: 1rem;
+  // float: right;
 }
 
 .heading {
@@ -21,10 +46,6 @@ body {
   text-decoration: underline $color-primary-1 2px;
 }
 
-h2 {
-  font-weight: bold;
-}
-
-sup {
-  color: $color-primary-1;
+.img-container {
+  flex: 1.5;
 }

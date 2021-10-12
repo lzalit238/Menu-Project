@@ -7,11 +7,15 @@ const Item = ({item}) => {
     return (
         <>
             <div key={id} className='container'>
-                <img src={img} alt={title} />
-                <h2>{title}</h2>
-                <sup>${price}</sup>
-                <hr/>
-                <p>{desc}</p>
+                <div className='img-container'>
+                    <img src={img} alt={title} />
+                </div>
+                <div className='text-container'>
+                    <h2>{title}</h2>
+                    <sup>${price}</sup>
+                    <hr/>
+                    <p>{desc}</p>
+                </div>
             </div>
         </>
     )
