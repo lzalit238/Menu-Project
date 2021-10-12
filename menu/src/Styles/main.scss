@@ -2,17 +2,18 @@ $color-primary-1: rgb(236, 184, 43);
 $color-primary-2: rgb(187, 142, 20);
 
 body {
-  // margin: auto;
-  // display: flex;
   img {
     border: $color-primary-1 2px;
     border-radius: 2rem;
+    max-width: 100%;
+    height: auto;
   }
 }
 
 .container {
   max-width: 100%;
-  min-width: 10rem;
+  min-width: 5rem;
+  border: 2px solid black;
 }
 
 .heading {

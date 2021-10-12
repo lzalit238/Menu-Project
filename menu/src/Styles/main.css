@@ -1,20 +1,20 @@
-body {
-  margin: auto;
-  display: flex;
-}
 body img {
   border: #ecb82b 2px;
   border-radius: 2rem;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
   max-width: 100%;
-  min-width: 10rem;
+  min-width: 5rem;
+  border: 2px solid black;
 }
 
 .heading {
   text-align: center;
-  text-decoration: underline #ecb82b 2px;
+  -webkit-text-decoration: underline #ecb82b 2px;
+          text-decoration: underline #ecb82b 2px;
 }
 
 h2 {
@@ -23,6 +23,4 @@ h2 {
 
 sup {
   color: #ecb82b;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
