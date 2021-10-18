@@ -27,10 +27,11 @@ body img {
 
 .heading {
   text-align: center;
-  -webkit-text-decoration: underline #ecb82b 2px;
-          text-decoration: underline #ecb82b 2px;
+  text-decoration: underline #ecb82b 2px;
 }
 
 .img-container {
   flex: 1.5;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
